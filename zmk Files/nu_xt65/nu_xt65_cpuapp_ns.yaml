@@ -1,0 +1,15 @@
+identifier: nu_xt65_cpuapp_ns
+name: NU XT65 Non-Secure
+type: mcu
+arch: arm
+toolchain:
+  - gnuarmemb
+  - xtools
+  - zephyr
+ram: 192
+flash: 192
+supported:
+  - watchdog
+  - usb_device
+  - netif:openthread
+  - gpio

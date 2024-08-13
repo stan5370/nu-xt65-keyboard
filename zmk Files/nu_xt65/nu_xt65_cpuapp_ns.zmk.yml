@@ -1,0 +1,10 @@
+file_format: "1"
+id: nu_xt65_cpuapp
+name: NU XT65
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
+  - ble

@@ -1,0 +1,14 @@
+
+if SOC_NRF5340_CPUAPP_QKAA
+
+config BOARD_NU_XT65_CPUAPP
+	bool "NU XT65 nRF5340 Application MCU"
+
+config BOARD_NU_XT65_CPUAPP_NS
+	bool "NU XT65 nRF5340 Application MCU non-secure"
+
+endif # SOC_NRF5340_CPUAPP_QKAA
+
+config BOARD_NU_XT65_CPUNET
+	bool "NU XT65 nRF5340 Network MCU"
+	depends on SOC_NRF5340_CPUNET_QKAA

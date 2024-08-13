@@ -1,0 +1,13 @@
+identifier: nu_xt65_cpunet
+name: NU XT65 Network CPU
+type: mcu
+arch: arm
+toolchain:
+  - gnuarmemb
+  - xtools
+  - zephyr
+ram: 64
+flash: 256
+supported:
+  - watchdog
+  - gpio
